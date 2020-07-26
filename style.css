@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background-color: rgb(60, 149, 250);
+}
+.btn{
+    background-color: rgb(248, 152, 26);
+}
+.li{
+    margin-top: 50px;
+    
+}
+li{
+    margin-top: 20px;
+    font-size: 35px;
+    
+}
+.main{
+    margin-left: 20px;
+}
+.btn{
+    margin-left: 20px ;
+ 
+}
+.btn:hover,.main:hover{
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 10px;
+}
+
+.main{
+    font-size: 16px;
+    background-color: brown;
+
+    height: 35px;
+    
+}
+input{
+    font-size: 15px;
+    height: 35px;
+}

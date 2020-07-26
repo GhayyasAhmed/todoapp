@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To to App</title>
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5 ">
+            <div class="col">
+                <h2>To do App</h2>
+            </div>
+         </div>
+        <div class="row mt-5 justify-content-md-center">
+            
+            <div class="col">
+                <input type="text" id="todo-item" placeholder="Enter item">
+                <button onclick="addTodo()" class="main">Add item</button>
+                <button onclick="deleteAll()" class="main">Delete All</button>
+                <div class="li">
+                    <ul id="list">
+        
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+       
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
